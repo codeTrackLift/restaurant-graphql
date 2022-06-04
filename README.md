@@ -3,20 +3,39 @@ Creating multi-tier applications means building multiple API endpoints to handle
 
 Your task is to set up GraphQL for your restaurant data and then add mutations to get and update these data. 
 
-The starter files (Links to an external site.) for this activity include the restaurant data in JSON format and a predefined build schema for GraphQL. You need to go through this code to understand what each query or mutation should look like.
+The starter files include the restaurant data in JSON format and a predefined build schema for GraphQL. You need to go through this code to understand what each query or mutation should look like.
 
 To accomplish this task, you need to implement the following methods under the “root” object: 
-
 
 - restaurant: This gets a single restaurant based on a provided ID. 
 - restaurants: This gets a list of all restaurants. 
 - setrestaurant: This creates a new restaurant. 
-- Deleterestaurant: This deletes a restaurant based on the provided id.
+- deleterestaurant: This deletes a restaurant based on the provided id.
 - editrestaurant: This updates a restaurant based on the provided id.
 
 > Instructions:
 
 After completing the task, run the GraphQL interface and submit a file with screenshots showing all five queries and mutations highlighted above, along with a link to your GitHub repo that houses the code for this activity.
+
+> Screenshots
+### Get Single Restaurant
+
+<img src='./pics/getSingleRestaurant.png' alt='GraphQL query' width='500'>
+
+### Get All Restaurants
+<img src='./pics/getAllRestaurants.png' alt='GraphQL query' width='500'>
+
+### Set Restaurant
+<img src='./pics/setNewRestaurant1of2.png' alt='GraphQL query' width='500'>
+<img src='./pics/setNewRestaurant2of2.png' alt='GraphQL query' width='500'>
+
+### Delete Restaurant
+<img src='./pics/deleteRestaurant1of2.png' alt='GraphQL query' width='500'>
+<img src='./pics/deleteRestaurant2of2.png' alt='GraphQL query' width='500'>
+
+### Edit Restaurant
+<img src='./pics/editRestaurant1of2.png' alt='GraphQL query' width='500'>
+<img src='./pics/editRestaurant2of2.png' alt='GraphQL query' width='500'>
 
 ## MIT License
 
